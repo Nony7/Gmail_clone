@@ -1,0 +1,56 @@
+.sidebar{
+    flex: 0.3;
+    max-width: 200px;
+    padding-right: 20px;
+
+    
+    
+}
+
+.sidebarOption{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 3px 15px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+    color: grey;
+    
+
+
+}
+
+.sidebarOption >p{
+
+    display: none;
+
+}
+
+.sidebarOption--active >p{
+    display: inline !important;
+}
+
+.sidebarOption >h3{
+
+flex: 1;
+margin-left: 10px;
+font-size: 20px;
+font-weight: 400;
+
+
+}
+
+.sidebarOption:hover,.sidebarOption:hover > p, .sidebarOption:hover > h3,.sidebarOption--active,.sidebarOption--active >p,.sidebarOption--active >h3{
+    background-color: whitesmoke;
+    color: red;
+    font-weight: 700 !important;
+}
+
+
+.sidebar__footerIcons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+        
+}

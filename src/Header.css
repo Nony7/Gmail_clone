@@ -1,0 +1,56 @@
+h2{
+    font-family: 'Canopee';
+    font-size: 3vw;
+    color: green;
+    
+}
+
+.header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    
+
+
+}
+
+
+.header_left{
+    display: flex;
+
+    align-items: center;
+
+}
+
+.header_middle{
+    display: flex;
+
+flex: 0.7;
+padding: 10px;
+
+
+
+}
+.header_middle >input{
+
+    width: 80%;
+    padding: 10px;
+    background-color: transparent;
+
+}
+
+
+.img1{
+    
+
+object-fit: contain;
+height: 80px;
+
+}
+
+.header_right{
+
+    display: flex;
+    padding-right: 20px;
+}

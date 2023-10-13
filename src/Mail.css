@@ -1,0 +1,72 @@
+
+.mail{
+    flex:1;
+    border: 2px solid red;
+
+}
+
+.mail__tools{
+    display: flex;
+    justify-content: space-between;
+    background-color: darkgray;
+
+}
+
+.mail__toolsLeft{
+    display: flex;
+
+}
+
+.mail__body{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    padding: 20px;
+    height: 100vh;
+    
+}
+
+.mail__bodyHeader{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+  
+  
+}
+
+.mail__bodyHeader >h2{
+    font-weight: 300;
+    margin-right: 20px;
+    
+
+}
+.mail__bodyHeader >p{
+    margin-left: 20px;
+}
+.mail__important{
+    color: yellow;
+}
+/* 
+.mail__message >p{
+    padding: 10px;
+    margin-right: 20px;
+    overflow-wrap: break-word;
+}  */
+
+.mail__message{
+  margin-top: 70px;
+  margin-left: 40px;
+}
+
+.mail__message >h2{
+    font-family: 'gilroy';
+    font-size: 25px;
+}
+.mail__time{
+    position: absolute;
+    top: 25px;
+    right: 0;
+    color: grey;
+}
+

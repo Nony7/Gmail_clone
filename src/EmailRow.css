@@ -1,0 +1,57 @@
+.emailRow{
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    cursor: pointer;
+    z-index: 99;
+
+        
+
+
+}
+
+
+.emailRow__options{
+    display: flex;
+
+}
+
+.emailRow__message{
+    display: flex;
+    flex: 0.8;
+    align-items: center;
+    font-size: 14px;
+   
+}
+
+   
+
+.emailRow__title{
+        margin-left: 20px;
+}
+
+    
+    .emailRow__subject{
+
+         padding-left: 20px;
+
+    }
+
+    .emailRow__message  {
+    
+        color: black;
+        font-size: 15px;
+        margin-left: 40px;
+        font-family: 'gilroy';
+
+
+    }
+
+    .emailRow__id{
+        font-size: 16px;
+        
+    }

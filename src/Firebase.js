@@ -2,8 +2,8 @@
 
 import { getAnalytics } from "firebase/analytics";
 import { initializeApp } from "firebase/app";
-import { getAuth,signInWithPopup ,signInWithEmailAndPassword, createUserWithEmailAndPassword } from "firebase/auth";
-import { getDatabase } from "firebase/database";
+import { getAuth } from "firebase/auth";
+/* import { getDatabase } from "firebase/database"; */
 import { GoogleAuthProvider } from "firebase/auth";
 import {getFirestore} from "firebase/firestore";
 

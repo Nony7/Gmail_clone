@@ -2,7 +2,7 @@
 
   .logo h1 {
     
-    color: #00A885;
+    color: blue;
     margin-bottom: 12px;
     background-color: black;
     font-size: 2.5vw;
@@ -13,11 +13,12 @@
   }
 
   #login{
-    background-color: black;
-    color: #00A885;
+  
+    color: blue;
     font-size: 3.5vw;
     cursor: pointer;
-    font-family: 'monument';
+    font-family: 'poppins';
+    align-items: center;
   }
 
 .login{

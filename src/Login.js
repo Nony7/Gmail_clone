@@ -2,20 +2,20 @@ import React from 'react';
 
 import { useDispatch } from 'react-redux';
 import { logIn } from './features/UserSlice';
-import { signInWithPopup, createUserWithEmailAndPassword, signOut, signInWithEmailAndPassword } from 'firebase/auth'; 
+import { signInWithPopup} from 'firebase/auth'; 
 import { auth ,googleprovider} from './Firebase';
 import   './Login.css';
-import { GoogleAuthProvider } from 'firebase/auth';
+/* import { GoogleAuthProvider } from 'firebase/auth';
 import { useState } from 'react';
-import { logOut } from "./features/UserSlice";
+import { logOut } from "./features/UserSlice"; */
 
 function Login() {
 
 
-    const[registerEmail, setRegisterEmail] =useState("");
+/*     const[registerEmail, setRegisterEmail] =useState("");
     const[registerPassword, setRegisterPassword] =useState("");
     const[loginEmail, setLoginEmail] =useState("");
-    const[loginPassword, setLoginPassword] =useState("");
+    const[loginPassword, setLoginPassword] =useState(""); */
 
 
     const dispatch =useDispatch();
@@ -100,17 +100,16 @@ function Login() {
 </div>
 
 
-            <div className='login__container'>
+      
 
                             <br></br>
 
                             
-                            <button id="login" onClick={Signinn} >SIGN IN  via google</button>
+                            <button id="login" onClick={Signinn} >SIGN IN  </button>
 
                             <br></br>
       
-                                       
-            </div>
+      
 
         
 

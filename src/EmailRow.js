@@ -5,7 +5,7 @@ import { IconButton } from "@mui/material";
 import { useNavigate } from 'react-router-dom';
 /* import  {useHistory} from "react-router-dom" */
 import CheckBoxOutlineBlankIcon from '@mui/icons-material/CheckBoxOutlineBlank';
-import { selectedMail } from "./features/MailSlice";
+/* import { selectedMail } from "./features/MailSlice"; */
 import { useDispatch } from "react-redux";
 import { selectMail } from "./features/MailSlice";
 

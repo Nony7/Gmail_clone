@@ -5,6 +5,8 @@ import { logIn } from './features/UserSlice';
 import { signInWithPopup} from 'firebase/auth'; 
 import { auth ,googleprovider} from './Firebase';
 import   './Login.css';
+import Button from 'react-bootstrap/Button';
+import Alert from 'react-bootstrap/Alert';
 /* import { GoogleAuthProvider } from 'firebase/auth';
 import { useState } from 'react';
 import { logOut } from "./features/UserSlice"; */
@@ -63,20 +65,7 @@ function Login() {
                                          }))
 
 
-                                   /*      console.log(result)
-
-
-                                            const name= result.user.displayName;
-                                            const email= result.user.email;
-                                            const profilePic= result.user.photoURL;
-
-                                            localStorage.setItem("name", name)
-
-                                            localStorage.setItem("email", email)
-
-                                            localStorage.setItem("profilePic", profilePic)
- */
-
+        
 
                                     })
 
@@ -96,7 +85,10 @@ function Login() {
 <div className='login'>
 
 <div class="logo text-center">
-  <h1 >LOGIN CREDENTIALS:</h1>
+
+  <Alert  variant="primary" >
+  Google Sign In
+        </Alert>
 </div>
 
 
@@ -105,7 +97,13 @@ function Login() {
                             <br></br>
 
                             
-                            <button id="login" onClick={Signinn} >SIGN IN  </button>
+
+                              <div  className='botton' >
+                              <Button variant="primary" onClick={Signinn} >Sign In </Button>
+
+                              </div>
+
+                        
 
                             <br></br>
       

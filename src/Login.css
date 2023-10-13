@@ -1,16 +1,5 @@
 
 
-  .logo h1 {
-    
-    color: blue;
-    margin-bottom: 12px;
-    background-color: black;
-    font-size: 2.5vw;
-    font-family: 'monument';
-    letter-spacing: 3px;
-    word-spacing: 2px;
-    text-align: center;
-  }
 
   #login{
   
@@ -26,4 +15,10 @@
         width: 100vw;
         height: 100vh;
         align-items: center;
+}
+
+.botton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

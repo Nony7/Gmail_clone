@@ -1,13 +1,15 @@
 {
-  "main.css": "/Gmail_clone/static/css/main.805219a6.chunk.css",
-  "main.js": "/Gmail_clone/static/js/main.c87103b4.chunk.js",
-  "main.js.map": "/Gmail_clone/static/js/main.c87103b4.chunk.js.map",
-  "static/js/1.63d433b2.chunk.js": "/Gmail_clone/static/js/1.63d433b2.chunk.js",
-  "static/js/1.63d433b2.chunk.js.map": "/Gmail_clone/static/js/1.63d433b2.chunk.js.map",
+  "main.css": "/Gmail_clone/static/css/main.e9d251e7.chunk.css",
+  "main.js": "/Gmail_clone/static/js/main.7b49ad36.chunk.js",
+  "main.js.map": "/Gmail_clone/static/js/main.7b49ad36.chunk.js.map",
+  "static/css/1.6fd22116.chunk.css": "/Gmail_clone/static/css/1.6fd22116.chunk.css",
+  "static/js/1.cb52b34e.chunk.js": "/Gmail_clone/static/js/1.cb52b34e.chunk.js",
+  "static/js/1.cb52b34e.chunk.js.map": "/Gmail_clone/static/js/1.cb52b34e.chunk.js.map",
   "runtime~main.js": "/Gmail_clone/static/js/runtime~main.b74108c9.js",
   "runtime~main.js.map": "/Gmail_clone/static/js/runtime~main.b74108c9.js.map",
-  "static/css/main.805219a6.chunk.css.map": "/Gmail_clone/static/css/main.805219a6.chunk.css.map",
+  "static/css/main.e9d251e7.chunk.css.map": "/Gmail_clone/static/css/main.e9d251e7.chunk.css.map",
+  "static/css/1.6fd22116.chunk.css.map": "/Gmail_clone/static/css/1.6fd22116.chunk.css.map",
   "index.html": "/Gmail_clone/index.html",
-  "precache-manifest.12213d6168f3dfef0a6dc1d4051d3289.js": "/Gmail_clone/precache-manifest.12213d6168f3dfef0a6dc1d4051d3289.js",
+  "precache-manifest.02f4a8d4a598f8996c662a1afa291a8a.js": "/Gmail_clone/precache-manifest.02f4a8d4a598f8996c662a1afa291a8a.js",
   "service-worker.js": "/Gmail_clone/service-worker.js"
 }
